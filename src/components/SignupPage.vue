@@ -41,16 +41,11 @@
         <button @click="handleSubmit" class="w-full py-2 rounded-lg bg-blue-500 text-white font-medium hover:bg-blue-700">
           SignUp
         </button>
-  
-        <!-- <div class="w-full flex justify-start items-center space-x-2">
-          <p class="italic">Already Registered?</p>
-          <router-link :to="{ path: '/login' }" class="font-semibold px-4 py-[4px] bg-slate-400 hover:bg-fuchsia-300 rounded-lg">Login</router-link>
-        </div>       -->
-  
+
         <div class="flex items-center justify-between mt-4">
           <p class="text-sm text-gray-500">
             If Registered then login : 
-            <router-link :to="{ path: '/login' }" class="text-blue-500 underline hover:text-blue-700"> Login </router-link>
+           <a href="/auth/login" class="text-blue-500 underline hover:text-blue-700"> Login </a>
           </p>
         </div>
       </div>
